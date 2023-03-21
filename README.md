@@ -20,6 +20,10 @@ Se crean el arbol convirtiendo una expresion infija a postfija y asi dar la reso
 
 En el actual proyecto se realiza un programa con lenguaje java, que da solucion a problemas matematicos simples, muestra sus diferentes recorridos y muestra como quedaria el arbol armado visualmente, todo esto con el objetivo de facilitar unos posibles calculos.
 
+
+![image](https://user-images.githubusercontent.com/91577396/226756388-6e232656-6052-409c-b0b9-7540348f9c4a.png)
+
+
 # Manual de usuario:
 
 Ingresar la expresion separada por espacion para que funcione, luego ingresar los valores de las variables si es necesario, luego se escoge el recorrido que se necsita visualizar en el cual se obtiene tambien el resultado de la expresion.
