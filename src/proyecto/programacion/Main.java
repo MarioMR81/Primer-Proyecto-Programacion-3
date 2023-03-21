@@ -139,3 +139,47 @@ public class Main {
                 }
             }
         }
+       // Sacamos de la pila todos los operadores que quedan y los agregamos a la notación polaca o Preorden
+       while (!pila.isEmpty()) {
+        polaca += pila.pop() + " ";
+    }
+
+    return polaca.trim();
+}
+    // verificar si es un numero
+public static boolean esNumero(String token) {
+    try {
+        Double.parseDouble(token);
+        return true;
+    } catch (NumberFormatException e) {
+        return false;
+    }
+}
+public static boolean esVariable(String token) {
+    return token.matches("[a-zA-Z]+");
+}
+public static boolean esOperador(String token) {
+    return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/") || token.equals("^") || token.equals("sqrt");
+} // Verificar si es un operador
+public static int precedencia(String operador) {
+    if (operador.equals("^") || operador.equals("sqrt")) {
+        return 3;
+    } else if (operador.equals("*") || operador.equals("/")) {
+        return 2;
+    } else if (operador.equals("+") || operador.equals("-")) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+// Método que valida la expresion introducida por el usuario
+public static boolean validarExpresion(String expresion) {
+    String[] tokens = expresion.split(" ");
+
+    for (String token : tokens) {
+        if (!esOperador(token) && !esNumero(token) && !token.equals(" ") && !token.equals("(") && !token.equals(")") && !esVariable(token)) {
+            return false;
+        }
+    }
+    return true;
+}
