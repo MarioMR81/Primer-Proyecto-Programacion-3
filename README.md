@@ -2,8 +2,8 @@
 
 Descripcion del proyecto:
 
-Se crean un calculadora basada en arboles de expresiones la cual puede resolver operaciones matematicas de sumas, restas, multiplicaciones, divisiones y potencias.
-Se crean el arbol convirtiendo una expresion infija a postfija y asi dar la resolucion a la expresion.
+Se crea una calculadora basada en arboles de expresiones la cual puede resolver operaciones matematicas de sumas, restas, multiplicaciones, divisiones y potencias.
+Se crean el arbol convirtiendo una expresion infija a postfija y asi dar la resolucion a la expresion. Se crea un metodo el cual imprime el arbol de forma grafica. Se colocan los diferentes recorridos Inorder, Postorder y Preorder.
 
 Introduccion:
 
