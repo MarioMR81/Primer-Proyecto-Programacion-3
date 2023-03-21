@@ -54,6 +54,17 @@ Continuando con las opciones del menu tenemos la siguiente que seria la opcion d
 
 Como ultimo recorrido tenemos la opcion de imprimir la notacion postfija o postorden, solo regresamo al menu principal como menciona el menu y selecionamos la ultima opcion, al momento de selecionarla se desplegara el recorrido del arbol o de la expresion Matematica.
 
+![image](https://user-images.githubusercontent.com/91577396/226755366-b6867928-6b7f-45db-a1a5-49bac0af1ad6.png)
+
+Como por ultimo paso nos daria el resultado final de la expresion matematica, como vemos tambien posee funciones para calcular los valores ingresados por el usuario por supuesto luego de que el usuario lo desee o ya no desee realizar mas recorridos
+
+![image](https://user-images.githubusercontent.com/91577396/226755639-242f79b7-4d8c-4f2e-a7de-b4c74ad5994c.png)
+
+Al momento de haber seleccionado cada uno de los recorridos solamente nos quedaria la opcion si el usuario desearia ingresar otra expresion Matematica o si desea salir, y esto seria la parte final del proyecto o programa, la cual es mostrar los recorridos, Imprimir un arbol Grafico y evaluar la expresion.
+
+![image](https://user-images.githubusercontent.com/91577396/226755884-2e269ab3-09aa-4f5e-9aab-07a2b7742bd9.png)
+
+
 # Manual de usuario:
 
 Ingresar la expresion separada por espacion para que funcione, luego ingresar los valores de las variables si es necesario, luego se escoge el recorrido que se necsita visualizar en el cual se obtiene tambien el resultado de la expresion.
