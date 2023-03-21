@@ -84,3 +84,56 @@ public class ArbolBinario {
         }
 
     }
+
+    public void imprimirArbolVertical() {
+        Map<Integer, List<String>> niveles = new TreeMap<>();
+        obtenerNodosPorNivel(raiz, niveles, 0);
+
+        int altura = alturaArbol(raiz);
+        int espacios = 4 * (altura - 1);
+
+        for (int i = 0; i < altura; i++) {
+            for (int j = 0; j < espacios; j++) {
+                System.out.print(" ");
+            }
+            List<String> nivel = niveles.get(i);
+            if (nivel != null) {
+                for (String valor : nivel) {
+                    System.out.print(valor);
+                    for (int j = 0; j < espacios + 1; j++) {
+                        System.out.print(" ");
+                    }
+                }
+            }
+            System.out.println();
+            espacios /= 2;
+        }
+    }
+
+    private void obtenerNodosPorNivel(Nodo nodo, Map<Integer, List<String>> niveles, int nivel) {
+        if (nodo == null) {
+            return;
+        }
+
+        if (!niveles.containsKey(nivel)) {
+            niveles.put(nivel, new ArrayList<>());
+        }
+
+        String valor = String.valueOf(nodo.valor);
+        niveles.get(nivel).add(valor);
+        obtenerNodosPorNivel(nodo.izquierdo, niveles, nivel + 1);
+        obtenerNodosPorNivel(nodo.derecho, niveles, nivel + 1);
+    }
+
+    private int alturaArbol(Nodo nodo) {
+        if (nodo == null) {
+            return 0;
+        }
+
+        int alturaIzquierdo = alturaArbol(nodo.izquierdo);
+        int alturaDerecho = alturaArbol(nodo.derecho);
+
+        return Math.max(alturaIzquierdo, alturaDerecho) + 1;
+    }
+
+
