@@ -22,6 +22,27 @@ En el actual proyecto se realiza un programa con lenguaje java, que da solucion 
 
 # Funcionamiento del proyecto:
 
+Acontinuacion encontrara una guia de como utilizar el programa y tener un maximo rendimiento al igual solventar cada una de las dudas que se puedan llegar a presentar durante el uso de dicho programa
+
+Al momento de ejecutar el programa se podra presentar un mensaje en una ventana emergente la cual pedira la expresion matematica recordemos que la expresion matematica debe de estar entre los limites para que sea validada por el programa y luego mostrar las opcciones, primero se ingresa la expresion de la siguiente manera.
+
+![image](https://user-images.githubusercontent.com/91577396/226752855-c66f02a5-4bf3-4701-bb95-bb1d42d4b5ae.png)
+
+
+Tambien como menciona en los linamientos del proyecto esta permitido el uso de variables las cuales se le deben de asignar un valor, veamos como funciona dentro del programa al momento de ingresar las variables o incognitas a estos el usuario debera asignarles un valor por cada variable 
+
+![image](https://user-images.githubusercontent.com/91577396/226752920-12a25cf1-5555-421a-8527-5e1186b47f0e.png)
+
+![image](https://user-images.githubusercontent.com/91577396/226752988-9ddcefe5-c43e-4992-a402-37c7395a4904.png)
+
+Luego de ingresar los valores de la expresion matematica tanto como variables se presentara un meno el cual al inicio se podra ver el Arbol de manera Grafica y tambien un menu se desplegara con las opcciones de los recorridos, los cuales seran:
+
+1: Notacion Polaca o Recorrido Preorden
+2: Recorrido Inorden
+3: Recorrido PostOrden
+
+
+
 # Manual de usuario:
 
 Ingresar la expresion separada por espacion para que funcione, luego ingresar los valores de las variables si es necesario, luego se escoge el recorrido que se necsita visualizar en el cual se obtiene tambien el resultado de la expresion.
