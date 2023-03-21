@@ -20,6 +20,6 @@ El objetivo Pincipal del programa creado en el lenguaje de Java es conocer de un
 
 Conocer las distintas propiedades del leguaje de java al momento de programar como por ejemplo los nodos, pilas etc, para que estos logren la funcion principal del proyecto, el poder reconocer la expresion matematica y como interpretarla para realizar las busquedas y el arbol grafico.
 
-Reconocer a profundida los distintos metodos de programacion de todo lo aprendido durante el curso de programacion 3 e implementar todo lo mencionado para la creacion de este proyecto sobre arboles binarios.
+Reconocer a profundidad los distintos metodos de programacion de todo lo aprendido durante el curso de programacion 3 e implementar todo lo mencionado para la creacion de este proyecto sobre arboles binarios.
 
 Saber como funciona los arboles binarios y de igual forma sus recorridos, tales como el post-orden, inorden y pre-orden dentro del programa, tambien lograr la representacion grafica de dicho arbol dentro del proyecto.
