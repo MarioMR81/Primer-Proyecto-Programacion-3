@@ -10,11 +10,13 @@ Se crean el arbol convirtiendo una expresion infija a postfija y asi dar la reso
 
 1....Introducción
 
-2....Funcionamiento del Programa
+2....Objetivos
 
-3....Manual del Usuario
+3....Funcionamiento del Programa
 
-4....Objetivos
+4....Manual del Usuario
+
+5....Solucion de Algunos Problemas
 
 # Introduccion:
 
@@ -24,6 +26,18 @@ En el actual proyecto se realiza un programa con lenguaje java, que da solucion 
 # Manual de usuario:
 
 Ingresar la expresion separada por espacion para que funcione, luego ingresar los valores de las variables si es necesario, luego se escoge el recorrido que se necsita visualizar en el cual se obtiene tambien el resultado de la expresion.
+
+# Objetivos:
+
+
+El objetivo Pincipal del programa creado en el lenguaje de Java es conocer de una manera mas interna como funcionan los procesos de cracion de arboles, metodos de busqueda y tambien las pilas.
+
+Conocer las distintas propiedades del leguaje de java al momento de programar como por ejemplo los nodos, pilas etc, para que estos logren la funcion principal del proyecto, el poder reconocer la expresion matematica y como interpretarla para realizar las busquedas y el arbol grafico.
+
+Reconocer a profundidad los distintos metodos de programacion de todo lo aprendido durante el curso de programacion 3 e implementar todo lo mencionado para la creacion de este proyecto sobre arboles binarios.
+
+Saber como funciona los arboles binarios y de igual forma sus recorridos, tales como el post-orden, inorden y pre-orden dentro del programa, tambien lograr la representacion grafica de dicho arbol dentro del proyecto.
+
 
 # Funcionamiento del proyecto:
 
@@ -69,14 +83,8 @@ Al momento de haber seleccionado cada uno de los recorridos solamente nos quedar
 
 ![image](https://user-images.githubusercontent.com/91577396/226755884-2e269ab3-09aa-4f5e-9aab-07a2b7742bd9.png)
 
+# Solucion de algunos Problemas 
 
-# Objetivos:
+Al momento de ingresar la expresion Matematica pueden llegarse a presentar algunos problemas ya que esta debe de ingressarse con espacios para que el programa pueda evaluar la expresion y reconocer los operadores que se encuentran en dicha expresion y poder realizar cada uno de los recorridos del programa como tambien su arbol grafico.
 
-
-El objetivo Pincipal del programa creado en el lenguaje de Java es conocer de una manera mas interna como funcionan los procesos de cracion de arboles, metodos de busqueda y tambien las pilas.
-
-Conocer las distintas propiedades del leguaje de java al momento de programar como por ejemplo los nodos, pilas etc, para que estos logren la funcion principal del proyecto, el poder reconocer la expresion matematica y como interpretarla para realizar las busquedas y el arbol grafico.
-
-Reconocer a profundidad los distintos metodos de programacion de todo lo aprendido durante el curso de programacion 3 e implementar todo lo mencionado para la creacion de este proyecto sobre arboles binarios.
-
-Saber como funciona los arboles binarios y de igual forma sus recorridos, tales como el post-orden, inorden y pre-orden dentro del programa, tambien lograr la representacion grafica de dicho arbol dentro del proyecto.
+El arbol Grafico debe ser interpretado de la mejor manera ya que este al momento de ingresar algunos valores puede que el usuario no logre entenderlo pero si es claro con los valores este se representara bien al momento de ingresar la expresion matematica
