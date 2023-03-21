@@ -1,7 +1,8 @@
 
 package proyecto.programacion;
 
-import java.util.Stack;
+import java.util.*;
+
 
 
 public class ArbolBinario {
